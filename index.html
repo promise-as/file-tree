@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jq文件树</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="content">
+    <div class="treebox">
+      <div class="tree">
+        <ul>
+          <li>
+            <div class="open_menu"><span></span><a title="一级菜单">一级菜单</a></div>
+            <ul>
+              <li>
+                <div class="open_menu"><span></span><a title="二级菜单">二级菜单</a></div>
+                <ul>
+                  <li><a title="最后一层">最后一层</a></li>
+                  <li><a title="最后一层" class="ontree">最后一层</a></li>
+                  <li><a title="最后一层">最后一层</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="open_menu"><span></span><a title="二级菜单">二级菜单</a></div>
+                <ul>
+                  <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                  <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                  <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="close_menu"><span></span><a title="一级菜单">一级菜单</a></div>
+            <ul>
+              <li>
+                <div class="close_menu"><span></span><a title="二级菜单">二级菜单</a></div>
+                <ul style="display: none;">
+                  <li>
+                    <div class="close_menu"><span></span><a title="三级菜单">三级菜单</a></div>
+                    <ul style="display: none;">
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="close_menu"><span></span><a title="二级菜单">二级菜单</a></div>
+                <ul style="display: none;">
+                  <li>
+                    <div class="close_menu"><span></span><a title="三级菜单">三级菜单</a></div>
+                    <ul style="display: none;">
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="close_menu"><span></span><a title="三级菜单">三级菜单</a></div>
+                    <ul style="display: none;">
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                      <li><a title="最后一层">最后一层的结构有变化最后一层的结构有变化</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://img.thea.cn/public/js/jquery-1.12.3.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

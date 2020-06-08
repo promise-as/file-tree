@@ -1,0 +1,17 @@
+li { list-style-type: none; }
+
+.content { width: 800px; padding: 20px 0; margin: 5% auto; height: 300px; border: solid 1px #d6d7dc; box-shadow: 1px 1px 5px 1px #ddd; overflow-x: hidden; overflow-y: scroll; position: relative; }
+
+.treebox { width: 100%; }
+
+.tree ul { padding-left: 20px; margin-top: 4px; }
+.tree a { color: #646464; height: 24px; line-height: 24px; font-size: 14px; overflow: hidden; }
+
+.close_menu, .open_menu { overflow: hidden; }
+.close_menu span, .open_menu span { width: 24px; height: 24px; display: block; float: left; cursor: pointer; opacity: .5; }
+
+.close_menu span { background: url(../img/close.png) no-repeat left top; }
+
+.open_menu span { background: url(../img/open.png) no-repeat left top; }
+
+/*# sourceMappingURL=index.css.map */
